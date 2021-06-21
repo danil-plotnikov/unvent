@@ -1,0 +1,58 @@
+html, body
+ font-family: Uni Neue
+ margin: 0
+ 
+html
+ font-size: 0.052vw
+
+body 
+ font-size: 16rem
+
+p 
+ margin: 0
+
+img 
+ max-width: 100%
+
+a 
+ text-decoration: none
+ color: #000
+ &:hover
+  text-decoration: none
+  color: #000
+
+.container
+ max-width: 80vw
+ margin: 0 auto
+
+.btn
+ position: relative
+ overflow: hidden
+ &::before  
+  display: block
+  content: ""
+  width: 30px
+  height: 400px
+  background: #fff
+  animation-delay: 50ms
+  position: absolute
+  left: -40px
+  top: -200px
+  transition: 0.1s
+  animation: slide 3.5s 2s infinite
+  transform: rotate(45deg)
+
+@keyframes slide
+	0% 
+		left: -30px 
+	30% 
+		left: 150%
+	100% 
+		left: 150% 
+	
+
+
+@import 'header' 
+@import 'nav'
+@import 'main'
+@import 'media'

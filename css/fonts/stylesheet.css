@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueBook.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueLight.ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueHeavy.ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('UniNeueBlack.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
